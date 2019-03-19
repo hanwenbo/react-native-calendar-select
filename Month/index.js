@@ -3,15 +3,11 @@
  */
 
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import {
   View,
   Text,
-  StyleSheet,
-  TouchableHighlight
 } from 'react-native';
-import Moment from 'moment';
 import styles from './style';
 import Day from '../Day';
 

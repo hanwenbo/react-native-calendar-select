@@ -8,11 +8,9 @@ import PropTypes from 'prop-types';
 import {
   View,
   Text,
-  StyleSheet,
   TouchableHighlight,
   Dimensions,
 } from 'react-native';
-import Moment from 'moment';
 import styles from './style';
 const {width} = Dimensions.get('window');
 let dayWidth = width / 7;
@@ -91,7 +89,6 @@ export default class Day extends Component {
     let text = date ? date.date() : '';
     let mainColor = {color: color.mainColor};
     let subColor = {color: color.subColor};
-    let mainBack = {backgroundColor: color.mainColor};
     let subBack = {backgroundColor: color.subColor};
     return (
       <View
